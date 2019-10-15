@@ -19,5 +19,10 @@ namespace CodeTest.Models
         {
             ShapePoints = new List<Point>();
         }
+
+        public override string ToString()
+        {
+            return StartingPoint.X + "," + StartingPoint.Y;
+        }
     }
 }

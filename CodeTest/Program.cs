@@ -15,7 +15,18 @@ namespace CodeTest
             TestModel test2 = new TestModel(1, triangle, new Size(50, 50));
 
             List<Shape> placedShapes1 = GetInsertedShapePositions(test1);
+            Console.WriteLine("Test1: ");
+            foreach(var shape in placedShapes1)
+            {
+                Console.WriteLine(shape.ToString());
+            }
+            Console.WriteLine();
             List<Shape> placedShapes2 = GetInsertedShapePositions(test2);
+            Console.WriteLine("Test2: ");
+            foreach (var shape in placedShapes2)
+            {
+                Console.WriteLine(shape.ToString());
+            }
 
         }
 
@@ -28,7 +39,7 @@ namespace CodeTest
         /// <returns>list of complete shapes, each with where they should start</returns>
         private static List<Shape> GetInsertedShapePositions(TestModel test)
         {
-            throw new NotImplementedException();
+            return MySolution.GetInsertedShapePositions(test);
         }
 
 
