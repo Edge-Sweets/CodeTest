@@ -7,7 +7,7 @@
 <img src="https://raw.githubusercontent.com/Edge-Sweets/CodeTest/master/images/Rectangles.PNG" width=250 ></img>
 
 
-<span> The first shape should go in the bottom-left corner, as so: </span><br />
+<span>The first shape should go in the bottom-left corner, as so: </span><br />
 <img src="https://raw.githubusercontent.com/Edge-Sweets/CodeTest/master/images/Rectangles_inside.PNG" width=250 ></img>
 
 <span>Determine how many shapes can fit inside the large rectangle, and set their starting points where they need to be, like so: </span><br />
@@ -17,7 +17,7 @@
 The code test is the backend logic that would determine how to do the above example. There are sample shapes in the code test to work with. You should:
 
 1. Determine how many shapes can fit.
-2. return a list of shapes complete with their starting points
+2. Return a list of shapes complete with their starting points
 3. Confirm that your method works for any variety of shape.
 
 Notes:
