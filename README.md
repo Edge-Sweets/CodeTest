@@ -16,10 +16,10 @@
 
 The code test is the backend logic that would determine how to do the above example. There are sample shapes in the code test to work with. You should:
 
-1. Determine how many parts can fit.
-2. return a list of parts complete with their starting points
+1. Determine how many shapes can fit.
+2. return a list of shapes complete with their starting points
 3. Confirm that your method works for any variety of shape.
 
 Notes:
-- Assume parts will be "rectangular". That is, no overlapping of parts need to occur.
+- Assume shapes will be "rectangular". That is, no overlapping of shapes need to occur.
 - Spacing includes spacing from the sides of the rectangle
