@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CodeTest
+namespace CodeTest.Models
 {
     public class Point
     {

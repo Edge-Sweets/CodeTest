@@ -11,8 +11,8 @@ namespace CodeTest
             Shape fiveUnitRectangle = CreateFiveUnitRectangle();
             Shape triangle = CreateTriangle();
 
-            TestModel test1 = new TestModel(1, fiveUnitRectangle, new System.Drawing.Size(50, 50));
-            TestModel test2 = new TestModel(1, triangle, new System.Drawing.Size(50, 50));
+            TestModel test1 = new TestModel(1, fiveUnitRectangle, new Size(50, 50));
+            TestModel test2 = new TestModel(1, triangle, new Size(50, 50));
 
             List<Shape> placedShapes1 = GetInsertedShapePositions(test1);
             List<Shape> placedShapes2 = GetInsertedShapePositions(test2);

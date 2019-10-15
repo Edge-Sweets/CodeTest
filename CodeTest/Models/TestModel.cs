@@ -10,14 +10,14 @@ namespace CodeTest.Models
 
         public double Spacing { get; set; }
         public Shape Shape { get; set; }
-        public Size RectangleSize { get; set; }
+        public Size Rectangle { get; set; }
 
 
-        public TestModel(double spacing, Shape shape, Size rectangleSize)
+        public TestModel(double spacing, Shape shape, Size rectangle)
         {
             Spacing = spacing;
             Shape = shape;
-            RectangleSize = rectangleSize;
+            Rectangle = rectangle;
         }
 
     }
