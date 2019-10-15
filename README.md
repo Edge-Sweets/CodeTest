@@ -23,3 +23,5 @@ The code test is the backend logic that would determine how to do the above exam
 Notes:
 - Assume shapes will be "rectangular". That is, no overlapping of shapes need to occur.
 - Spacing includes spacing from the sides of the rectangle
+- Bottom-left corner is 0,0
+- Not all parts will fit exactly in the rectangle. Side spacing is minimum required spacing
