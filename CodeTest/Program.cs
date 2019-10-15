@@ -13,17 +13,22 @@ namespace CodeTest
 
             TestModel test1 = new TestModel(1, fiveUnitRectangle, new System.Drawing.Size(50, 50));
             TestModel test2 = new TestModel(1, triangle, new System.Drawing.Size(50, 50));
+
+            List<Shape> placedShapes1 = GetInsertedShapePositions(test1);
+            List<Shape> placedShapes2 = GetInsertedShapePositions(test2);
+
         }
 
         /// <summary>
+        /// TODO: Implement this
         /// Determine where each part will fit on the given Rectangle (in testModel).
         /// 
         /// </summary>
         /// <param name="test">test to evaluate</param>
         /// <returns>list of complete shapes, each with where they should start</returns>
-        private List<Shape> GetInsertedShapePositions(TestModel test)
+        private static List<Shape> GetInsertedShapePositions(TestModel test)
         {
-
+            throw new NotImplementedException();
         }
 
 
