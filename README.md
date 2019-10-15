@@ -3,7 +3,7 @@
 
 <span>Given a list of points that make up a shape (all points inside the list are part of the shape), determine how many shapes you can fit inside a given size rectangle with a given amount of space inbetween each shape.</span>
 
-<span>Example: The image below shows a rectangle (green) 50x50. The white rectangle next to it is 5x5.</span><br />
+<span>Example: The image below shows a rectangle (green) 50x50. The white shape next to it is a 5x5 rectangle You will be given the list of points for the shape, and the size for the green rectangle.</span><br />
 <img src="https://raw.githubusercontent.com/Edge-Sweets/CodeTest/master/images/Rectangles.PNG" width=250 ></img>
 
 
