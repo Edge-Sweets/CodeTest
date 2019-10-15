@@ -27,7 +27,7 @@ Notes:
 - Not all parts will fit exactly in the rectangle. Side spacing is minimum required spacing
 
 
-Test1 correct output: 
+Test1 (from code) correct output: 
 
 <i>Note</i> Numbering can also be incremented opposite way (x incrementing first, then y)
 
