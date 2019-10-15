@@ -10,10 +10,10 @@ namespace CodeTest
         {
             Shape fiveUnitRectangle = CreateFiveUnitRectangle();
             Shape triangle = CreateTriangle();
-
+            Shape fourUnitRectangle = CreateFourUnitRectangle();
             TestModel test1 = new TestModel(1, fiveUnitRectangle, new Size(50, 50));
             TestModel test2 = new TestModel(1, triangle, new Size(50, 50));
-
+            TestModel test3 = new TestModel(1, fourUnitRectangle, new Size(26, 26));
             List<Shape> placedShapes1 = GetInsertedShapePositions(test1);
             Console.WriteLine("Test1: ");
             foreach(var shape in placedShapes1)
@@ -27,7 +27,14 @@ namespace CodeTest
             {
                 Console.WriteLine(shape.ToString());
             }
-
+            Console.WriteLine();
+            List<Shape> placedShapes3 = GetInsertedShapePositions(test3);
+            Console.WriteLine("Test3: ");
+            foreach (var shape in placedShapes3)
+            {
+                Console.WriteLine(shape.ToString());
+            }
+            Console.Read();
         }
 
         /// <summary>
@@ -62,6 +69,17 @@ namespace CodeTest
             triangle.ShapePoints.Add(new Point(10, 0));
             triangle.ShapePoints.Add(new Point(0, 0));
             return triangle;
+        }
+
+        private static Shape CreateFourUnitRectangle()
+        {
+            Shape fourUnitRectangle = new Shape();
+            fourUnitRectangle.ShapePoints.Add(new Point(0, 0));
+            fourUnitRectangle.ShapePoints.Add(new Point(0, 4));
+            fourUnitRectangle.ShapePoints.Add(new Point(4, 4));
+            fourUnitRectangle.ShapePoints.Add(new Point(4, 0));
+            fourUnitRectangle.ShapePoints.Add(new Point(0, 0));
+            return fourUnitRectangle;
         }
     }
 }
